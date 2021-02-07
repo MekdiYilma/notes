@@ -1,4 +1,7 @@
 # DSI Notes
+
+# Python Intro
+
 Data Types 
 
 Mutable: Lists, Sets, Dictionaries
@@ -54,7 +57,41 @@ d['key'] = 'new value' #dictionary assignment
 
 store unique elements
 
+# Numpy
+
+x.reshape(-1,5) # modify the given array, x, into certain rows and five columns but python is set to figure how how many rows 
+
+
+* Numpy arrays can hold one and only one type of data.
+* Numpy arrays are super efficient both in terms of memory footprint and computational efficiency.
+* Numpy arrays have a size, and the size cannot be changed. (x.size) **
+* Numpy arrays have a shape, which allows them to be multi-dimensional (examples forthcoming).
+* One major difference between arrays and lists is that arrays cannot be extended. (e.g, x.append is an error)
+* Broadcasting can only be performed when the shape of each dimension in the arrays are equal and/or one has the dimension size of 1.
+
+
+**Although the total size of an array cannot be changed, the shape of the array can be changed, as long as this change of shape does not create or destroy elements
+
+
+
+
 
 # Relevant Links
 * [Visualizing `scipy.stats` distributions](https://stackoverflow.com/questions/37559470/what-do-all-the-distributions-available-in-scipy-stats-look-like)
-* [new]
+* [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+* [Git Branch Workflows](https://buddy.works/blog/5-types-of-git-workflows)
+* [Git Adding a Remote](https://docs.github.com/en/github/using-git/adding-a-remote)
+* [Normal Distribution](https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data/more-on-normal-distributions/v/introduction-to-the-normal-distribution)
+* [Seeing Theory](https://seeing-theory.brown.edu/basic-probability/index.html)
+* [Make the Most Out of your `pandas.read_csv()`](https://medium.com/analytics-vidhya/make-the-most-out-of-your-pandas-read-csv-1531c71893b5)
+
+
+## Additional Resources for DS
+* [Kaggle Competitions](https://www.kaggle.com/learn/python)
+* [LeetCode](https://leetcode.com/)
+* [Udemy](https://www.udemy.com/)
+* []()
+
+## Grad School 
+* [Stanford HCP Program](https://gradadmissions.stanford.edu/programs/hcp)
+* [Stanford How to Apply](https://statistics.stanford.edu/admissions/ms/external/how-apply)
