@@ -74,7 +74,21 @@ x.reshape(-1,5) # modify the given array, x, into certain rows and five columns 
 
 
 
+# Machine Learning Workflows
 
+### Cross Validation
+
+### K-fold cross Validation
+
+### Bootstrap
+
+
+
+# Sorting Algorithms
+
+### Bubble sort
+
+### 
 
 # Relevant Links
 * [Visualizing `scipy.stats` distributions](https://stackoverflow.com/questions/37559470/what-do-all-the-distributions-available-in-scipy-stats-look-like)
@@ -84,6 +98,7 @@ x.reshape(-1,5) # modify the given array, x, into certain rows and five columns 
 * [Normal Distribution](https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data/more-on-normal-distributions/v/introduction-to-the-normal-distribution)
 * [Seeing Theory](https://seeing-theory.brown.edu/basic-probability/index.html)
 * [Make the Most Out of your `pandas.read_csv()`](https://medium.com/analytics-vidhya/make-the-most-out-of-your-pandas-read-csv-1531c71893b5)
+* [Fundamentals of Machine Learning for Predictive Data Analytics](https://mitpress.mit.edu/books/fundamentals-machine-learning-predictive-data-analytics)
 
 
 ## Additional Resources for DS
@@ -95,3 +110,24 @@ x.reshape(-1,5) # modify the given array, x, into certain rows and five columns 
 ## Grad School 
 * [Stanford HCP Program](https://gradadmissions.stanford.edu/programs/hcp)
 * [Stanford How to Apply](https://statistics.stanford.edu/admissions/ms/external/how-apply)
+
+
+
+# Bash Scripting 
+
+### Bash profile location on OSX
+`~./bash_profile`
+
+### Make a bash function
+
+```bash
+function gitadder() {
+    git pull
+    git add .
+    dt =$(date '+%d/%m/%Y %H:%M:%S');
+    git commit -m "Updated: $(date '+%a %M:%H %h %d % Y')"
+    git push
+}
+
+```
+
