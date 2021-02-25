@@ -6,8 +6,8 @@ B = [ [3, 2, -5, 6],  [1, -3, 4, 8] ]
 result = [[sum(a*b for a,b in zip(A_row,B_col)) for B_col in zip(*B)] for A_row in A   ]
 
 
-for r in result:
-   print(r)
+# for r in result:
+#    print(r)
 
 # for A_row in zip(A):
 #     print(A_row)
@@ -22,14 +22,14 @@ for r in result:
   
 
 
-# result = []
+result = []
 
-# for A_row in A:
-#     for B_col in zip(*B):
-#         for a, b in zip(A_row, B_col):
-            # print(a,b)
+for A_row in A:
+    for B_col in zip(*B):
+        for a, b in zip(A_row, B_col):
+            result.append(a*b)
 
-# print(result)
+print(result)
 
 
 import numpy as np
